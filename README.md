@@ -5,4 +5,12 @@ therefore, I am required to complete the capstone project using an internal busi
 Due to company confidentiality policies, I am not authorized to share the original dataset. 
 However, I can provide a detailed description of the data, methodology, and results obtained throughout the project.
 
-MAIN FINDING The baseline model uses Logistic Regression with time-based splitting because it is fast, interpretable, and suitable for both numerical and categorical insurance features; a Decision Tree Classifier will also be tested. The main evaluation metric is the F1-Score, supported by PR-AUC, since the dataset is highly imbalanced (many active policies vs few surrendered policies). Accuracy and ROC-AUC are not reliable here because a model predicting “no surrender” for all customers could still achieve very high accuracy. The F1-Score balances Precision and Recall: Precision reduces unnecessary retention actions, while Recall ensures actual surrender risks are detected. For example, an F1-score of 0.65 with 70% Precision and 61% Recall means the model correctly identifies most real lapse risks while limiting false alarms.
+MAIN FINDING Business Understanding: The goal is to predict whether a policy will "Surrender" or "Non surrender" based on various features. The decision tree classifier has shown promising results
+The top 3 feature importance are:
+Spread Return Bond: Indicates the bond's return relative to a benchmark, suggesting that policies with higher bond returns are less likely to surrender. 
+Equity 3 Months Return: Reflects the short-term performance of equity investments, implying that recent equity gains may influence policyholder decisions. 
+Age of the Policy: Suggests that new client policies may be more likely to surrender. No fidelity.
+Present to the business and here some potential action based on the findings.
+
+Policy Review and Adjustment: Regularly review and adjust policies to ensure they remain relevant and aligned with policyholder needs, potentially reducing surrender rates.
+Actions and Penalties: Penalty for Early Surrender: Implement a penalty for policyholders who surrender their policies within a certain timeframe (e.g., 2-3 years), to discourage premature surrender. Incentivize Long-Term Retention: Offer incentives, such as bonus payments or premium reductions, for policyholders who maintain their policies for an extended period (e.g., 5-10 years). Dynamic Pricing: Adjust premiums based on the policy's predicted surrender probability, to reflect the increased risk of early surrender. Targeted Marketing: Develop targeted marketing campaigns to retain policyholders who are at high risk of surrender, based on the model's predictions.
