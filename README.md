@@ -1,4 +1,4 @@
-This repository contains Final Capstone Project [https://github.com/sabinadeparis/CAPSTONE_EDA_FINAL_Module20.git](https://github.com/sabinadeparis/Final_Capstone_Project.git)
+This repository contains Final Capstone Project https://github.com/sabinadeparis/Final_Capstone_Project.git
 
 PLEASE NOTE: Please note, as previously discussed and agreed, my certification is sponsored by my company; 
 therefore, I am required to complete the capstone project using an internal business use case. 
