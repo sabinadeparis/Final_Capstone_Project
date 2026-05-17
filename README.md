@@ -1,15 +1,21 @@
-This repository contains PA 20.1 https://github.com/sabinadeparis/CAPSTONE_EDA_FINAL_Module20.git
+This repository contains Final Capstone Project [https://github.com/sabinadeparis/CAPSTONE_EDA_FINAL_Module20.git](https://github.com/sabinadeparis/Final_Capstone_Project.git)
 
 PLEASE NOTE: Please note, as previously discussed and agreed, my certification is sponsored by my company; 
 therefore, I am required to complete the capstone project using an internal business use case. 
 Due to company confidentiality policies, I am not authorized to share the original dataset. 
 However, I can provide a detailed description of the data, methodology, and results obtained throughout the project.
 
-MAIN FINDING Business Understanding: The goal is to predict whether a policy will "Surrender" or "Non surrender" based on various features. The decision tree classifier has shown promising results
+MAIN FINDING Business Understanding: The goal is to predict whether a policy will "Surrender" or "Non surrender" based on various features. 
+The decision tree classifier has shown promising results
 The top 3 feature importance are:
+
 Spread Return Bond: Indicates the bond's return relative to a benchmark, suggesting that policies with higher bond returns are less likely to surrender. 
+
 Equity 3 Months Return: Reflects the short-term performance of equity investments, implying that recent equity gains may influence policyholder decisions. 
+
 Age of the Policy: Suggests that new client policies may be more likely to surrender. No fidelity.
+
+
 Present to the business and here some potential action based on the findings.
 
 Policy Review and Adjustment: Regularly review and adjust policies to ensure they remain relevant and aligned with policyholder needs, potentially reducing surrender rates.
